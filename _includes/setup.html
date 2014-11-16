@@ -1,19 +1,12 @@
-<h3>Overview</h3>
+<h3>Comentários Gerais</h3>
 
 <div class="row-fluid">
   <div class="span6">
-    <h4>Editor</h4>
+    <h4>Editor de texto</h4>
     <p>
-      When you're writing code, it's nice to have a text
-      editor that is optimized for writing code, with features
-      like automatic color-coding of key words.
-      The default text editor on Mac OS X and Linux is usually set to Vim,
-      which is not famous for being intuitive.
-      if you accidentally find yourself stuck in it,
-      try typing the escape key,
-      followed by ':q!' (colon, lower-case 'q', exclamation mark),
-      then hitting Return
-      to return to the shell.
+      Quando você está programando, é muito produtivo ter um editor de texto 
+      que é otimizado para escrever código, com funcionalidades como 
+      colorir sintaxe. 
     </p>
 {% if page.lessons contains 'Bash' %}
     <h4>The Bash Shell</h4>
@@ -26,10 +19,12 @@
 {% if page.lessons contains 'Git' %}
     <h4>Git</h4>
     <p>
-      Git is a state-of-the-art version control system. It
-      lets you track who made changes to what when and has
-      options for easily updating a shared or public version of
-      your code on <a href="https://github.com/">github.com</a>.
+      Git é um poderoso sistema de controle de versão usado pelos 
+      mais complexos softwares. Ele permite que você mantenha controle
+      das modificações que você e seus colegas de trabalho fazem no código
+      e quando elas foram feitas. Tem opções ótimas para fácil atualização
+      de seu programa e rápida disponibilização de correções via web através
+      da publicação do seu código no site <a href="https://github.com/">github.com</a>.
     </p>
 {% endif %}
   </div>
@@ -37,12 +32,9 @@
 {% if page.lessons contains 'Python' %}
     <h4>Python</h4>
     <p>
-      Python is becoming very popular in scientific computing,
-      and it's a great language for teaching general programming concepts due to its easy-to-read syntax.
-      We teach with Python version 2.7,
-      since it is still the most widely used.
-      Installing all the scientific packages for Python individually can be a bit difficult,
-      so we recommend an all-in-one installer.
+      Python está se tornando uma linguagem de programação muito popular para cientistas. É
+      uma linguagem perfeita para ensinar conceitos de programação por que é fácil de ler e tem
+      uma sintaxe muito intuitiva e leve. 
     </p>
 {% endif %}
 {% if page.lessons contains 'R' %}
@@ -73,35 +65,35 @@
     <h4>Python</h4>
     <ul>
       <li>
-        Download and install  <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
+        Download e instale  <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
       </li>
       <li>
-        Use all of the defaults for installation
-        <em>except</em>
-        make sure to check <strong>Make Anaconda the default Python</strong>.
+        Use todos os defaults para a instalação. 
+        <em>exceto</em>
+        Não esqueça de marcar <strong>Make Anaconda the default Python</strong>.
       </li>
     </ul>
 {% endif %}
 {% if page.lessons contains 'Git' %}
     <h4>Git Bash</h4>
     <p>
-      Install Git for Windows by download and running
-      <a href="http://msysgit.github.io/">the installer</a>.
-      This will provide you with both Git and Bash in the Git Bash program.
+      Instale Git para Windows a través do download do
+      <a href="http://msysgit.github.io/">instalador</a>.
+      Isto vai te proporcionar ambos o Git e um Bash shell.
     </p>
     <h4>Software Carpentry Installer</h4>
-    <p>This installer requires an active internet connection</p>
-    <p>After installing Python and Git Bash:</p>
+    <p>Este requir conexão com a internet</p>
+    <p>Depois de instalar Python e Git Bash:</p>
     <ul>
       <li>
-        Download the <a href="{{site.windows_installer_path}}">installer</a>.
+        Faça o download do <a href="{{site.windows_installer_path}}">instalador</a>.
       </li>
       <li>
-        If the file opens directly in the browser select <strong>File&rarr;Save Page As</strong>
-        to download it to your computer.
+        Se o arquivo abrir diretamente no navegador, selecione <strong>File&rarr;Save Page As</strong>
+        para fazer o download.
       </li>
       <li>
-        Double click on the file to run it.
+        Dê um duplo-clique no arquivo para executá-lo.
       </li>
     </ul>
 {% endif %}
@@ -109,16 +101,12 @@
   <div class="span6">
     <h4>Editor</h4>
     <p>
-      <code>nano</code> is the editor installed by the Software Carpentry Installer,
-      it is a basic editor integrated into the lesson material.
+      <code>nano</code> é o editor padrão do Software Carpentry Installer,
+      é um editor bem básico.
     </p>
     <p>
-      <a href="http://notepad-plus-plus.org/">Notepad++</a> is a
-      popular free code editor for Windows.
-      Be aware that you must add its installation directory to your system path
-      in order to launch it from the command line
-      (or have other tools like Git launch it for you).
-      Please ask your instructor to help you do this.
+      <a href="http://www.sublimetext.com/">Sublime Text</a> é um editor muito poderoso, gratuito para testar
+      e é o que recomendamos para o curso. 
     </p>
 {% if page.lessons contains 'R' %}
     <h4>R</h4>
@@ -156,10 +144,9 @@
       to keep Terminal in your dock for this workshop.
     </p>
 {% endif %}
-    <h4>Editor</h4>
+    <h4>Editor de texto</h4>
     <p>
-      We recommend
-      <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+      Recomendamos
       <a href="http://www.sublimetext.com/">Sublime Text</a>.
       In a pinch, you can use <code>nano</code>,
       which should be pre-installed.
