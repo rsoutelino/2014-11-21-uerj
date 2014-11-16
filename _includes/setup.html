@@ -148,8 +148,6 @@
     <p>
       Recomendamos
       <a href="http://www.sublimetext.com/">Sublime Text</a>.
-      In a pinch, you can use <code>nano</code>,
-      which should be pre-installed.
     </p>
 {% if page.lessons contains 'Git' %}
     <h4>Git</h4>
@@ -169,18 +167,17 @@
     <h4>Python</h4>
     <ul>
       <li>
-        Download and install  <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
+        Faça o download de  <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
       </li>
       <li>
-        Use all of the defaults for installation
-        <em>except</em>
-        make sure to check <strong>Make Anaconda the default Python</strong>.
+        Use todas as opções padrão
+        <em>exceto</em>
+        Não esqueça de marcar <strong>Make Anaconda the default Python</strong>.
       </li>
       <li>
-	<strong>Troubleshooting:</strong> If you get the following error message
-	"<code>ValueError unknown locale: UTF-8</code>", see instructions on how
-	to fix it
-	<a href="http://conda.pydata.org/docs/troubleshooting.html#issue-valueerror-unknown-locale-utf-8-on-mac-os-x">here</a>.
+	<strong>Bugs:</strong> Se você obtiver a seguinte mensagem de erro
+	"<code>ValueError unknown locale: UTF-8</code>", veja as instruções para resolver isso  
+	<a href="http://conda.pydata.org/docs/troubleshooting.html#issue-valueerror-unknown-locale-utf-8-on-mac-os-x">aqui</a>.
       </li>
     </ul>
 {% endif %}
@@ -221,16 +218,13 @@
 {% if page.lessons contains 'Git' %}
     <h4>Git</h4>
     <p>
-      If Git is not already available on your machine you can try
-      to install it via your distro's package manager
-      (e.g. <code>apt-get</code> or <code>yum</code>).
+      Se o Git já não está instalado no seu sistema, instale via 
+      <code>apt-get</code> ou <code>yum</code>.
     </p>
 {% endif %}
-    <h4>Editor</h4>
+    <h4>Editor de texto</h4>
     <p>
-      <a href="http://kate-editor.org/">Kate</a> is one option for Linux users.
-      In a pinch, you can use <code>nano</code>,
-      which should be pre-installed.
+      <a href="http://www.sublimetext.com/">Sublime Text</a>.
     </p>
 {% if page.lessons contains 'R' %}
     <h4>R</h4>
@@ -256,43 +250,31 @@
 {% if page.lessons contains 'Python' %}
     <h4>Python</h4>
     <p>
-      We recommend the all-in-one scientific Python installer
+      Recomendamos o pacote
       <a href="http://continuum.io/downloads.html">Anaconda</a>.
-      (Installation requires using the shell and if you aren't
-      comfortable doing the installation yourself just
-      download the installer and we'll help you at the boot
-      camp.)
     </p>
     <ol>
       <li>
-        Download the installer that matches your operating
-        system and save it in your home folder.
+        Faça o download do instalador que corresponde a sua distribuição linux e salve na sua pasta home.
       </li>
       <li>
-        Open a terminal window.
+        Abra um terminal.
       </li>
       <li>
-        Type <pre>bash Anaconda-</pre> and then press
-        tab. The name of the file you just downloaded should
-        appear.
+        Digite <pre>bash Anaconda-</pre> e pressione tab algumas vezes até que o nome se auto-complete.
       </li>
       <li>
-        Press enter. You will follow the text-only
-        prompts. When there is a colon at the bottom of the
-        screen press the down arrow to move down through the
-        text. Type <code>yes</code> and press enter to approve
-        the license. Press enter to approve the default
-        location for the files. Type <code>yes</code> and
-        press enter to prepend Anaconda to
-        your <code>PATH</code> (this makes the Anaconda
-        distribution the default Python).
+        Pressione enter. Você seguirá as instruções em modo texto. Concorde com a licensa
+        digitando <code>yes</code> e aperte enter. 
+        Aperte enter para concordar com a localização padrão dos arquivos de instalação.
+        Digite <code>yes</code> e aperte enter para apendar o Anaconda no seu <code>PATH</code>.
       </li>
     </ol>
 {% endif %}
   </div>
 </div>
 
-<h3>All operating systems</h3>
+<h3>Todos os sistemas operacionais</h3>
 
 <div class="row-fluid">
   <div class="span6">
