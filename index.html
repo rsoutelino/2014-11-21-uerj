@@ -2,7 +2,7 @@
 layout: workshop
 root: .
 venue: Universidade do Estado do Rio de Janeiro
-address: Rio de Janeiro 
+address: Faculdade de Oceanografia da UERJ
 country: Brasil
 humandate: Nov 21,28 , 2020
 humantime: 8:00 am - 12:30 pm
@@ -50,16 +50,15 @@ lessons: ['Python', 'Git']
   src="//www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt" frameborder="0" width="100%" height="206px" scrolling="auto"></iframe>
 {% endif %}
 
-<h2>General Information</h2>
+<h2>Introdução</h2>
 
 <p>
-  <a href="//software-carpentry.org">Software Carpentry</a>'s mission
-  is to help scientists and engineers become more productive
-  by teaching them basic lab skills for computing
-  like program design, version control, data management, and task automation.
-  This two-day hands-on workshop will cover basic concepts and tools;
-  participants will be encouraged to help one another
-  and to apply what they have learned to their own research problems.
+  Este módulo do curso é inspirado no programa <a href="//software-carpentry.org">Software Carpentry</a>.  
+  A missão deste grupo é ajudar cientistas e engenheiros a se tornarem mais produtivos através
+  do ensino de habilidades básicas de computação, como design de aplicativos, controle de 
+  versão, gerenciamento de dados e automatização de tarefas. Este curso prático cobrirá 
+  conceitos básicos e ferramentas; os alunos serão encorajados a ajudar uns aos outros e 
+  a aplicar o que eles aprenderam em suas próprias pesquisas científicas. 
 </p>
 
 <!--
@@ -68,8 +67,8 @@ lessons: ['Python', 'Git']
     or if specialized prerequisite knowledge is required, please mention that.
 -->
 <p>
-  <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  <strong>Público alvo:</strong>
+  Este curso se destina especificamente a alunos de mestrado em oceanografia.
 </p>
 
 <!--
@@ -77,11 +76,9 @@ lessons: ['Python', 'Git']
 -->
 {% if page.latlng %}
 <p>
-  <strong>Where:</strong>
+  <strong>Onde:</strong>
   {{ page.address }}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
-  or
+  Localização:
   <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 </p>
 {% endif %}
@@ -90,10 +87,17 @@ lessons: ['Python', 'Git']
     Modify the block below if there are any special requirements.
 -->
 <p>
-  <strong>Requirements:</strong>
-  Participants must bring a laptop with a few specific software packages installed
-  (listed below). They are also required to abide by Software Carpentry's
-  <a href="http://software-carpentry.org/conduct.html">Code of Conduct</a>.
+  <strong>Importante:</strong>
+  Os alunos devem trazer um laptop (mínimo de um por dupla, idealmente) já 
+  preparado com os softwares que serão utilizados na aulas. Os alunos são 
+  fortemente encorajados a ler o <a href="http://software-carpentry.org/conduct.html">
+  Code of Conduct</a> do Software Carpentry's. É um projeto open source muito bacana
+  no qual me baseei para estruturar este curso. Nesta ocasião, devido ao modo remoto
+  como o curso será conduzido, o curso está condensado em cerca de metade do conteúdo
+  proposto por este grupo. A leitura das 
+  <a href="http://software-carpentry.org/lessons.html">Lessons</a> propostas por eles
+  é muito interessante como preparação para as aulas, principalmente daquelas 
+  que trataremos nas aulas (Python, Git).   
 </p>
 
 <!--
@@ -101,14 +105,14 @@ lessons: ['Python', 'Git']
     If one hasn't, this block inserts the generic contact address for Software Carpentry.
 -->
 <p>
-  <strong>Contact</strong>:
+  <strong>Contato</strong>:
   Please mail
   {% if page.contact %}
     <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
   {% else %}
     <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
   {% endif %}
-  for more information.
+  para dúvidas ou maiores informações.
 </p>
 
 <hr/>
